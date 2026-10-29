@@ -1,0 +1,10 @@
+.navbar { position: sticky; top: 0; z-index: 10; background: var(--navy); color: #fff; }
+.inner {
+  max-width: 1080px; margin: 0 auto; padding: 0 16px; min-height: var(--navbar-h);
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.logo { font: 700 20px var(--font-display); color: var(--green); text-decoration: none; margin-right: auto; }
+.menu { display: flex; gap: 4px; flex-wrap: wrap; }
+.menu a { color: #dfe3f3; text-decoration: none; padding: 6px 12px; border-radius: 8px; font-size: 14px; }
+.menu a:hover, .menu a.active { background: rgba(156, 207, 143, 0.18); color: var(--green); }
+.menu a.admin { border: 1px solid rgba(255, 255, 255, 0.25); }

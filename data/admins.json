@@ -1,0 +1,23 @@
+[
+  {
+    "username": "admin",
+    "password": "1234",
+    "name": "ผู้ดูแลระบบ",
+    "menus": [
+      "door",
+      "slots",
+      "finance",
+      "activity",
+      "roles"
+    ]
+  },
+  {
+    "username": "staff",
+    "password": "1234",
+    "name": "เจ้าหน้าที่ประตู",
+    "menus": [
+      "door",
+      "activity"
+    ]
+  }
+]

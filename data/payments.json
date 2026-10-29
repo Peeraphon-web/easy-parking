@@ -1,0 +1,23 @@
+[
+  {
+    "ref": "AP-26102801",
+    "plate": "ฮย 2025",
+    "amount": 200,
+    "method": "ThaiQR",
+    "paidAt": "2026-10-28T17:38:00"
+  },
+  {
+    "ref": "AP-26102702",
+    "plate": "กข 1234",
+    "amount": 180,
+    "method": "ThaiQR",
+    "paidAt": "2026-10-27T17:08:00"
+  },
+  {
+    "ref": "AP-26102507",
+    "plate": "7กพ 5521",
+    "amount": 60,
+    "method": "ThaiQR",
+    "paidAt": "2026-10-25T11:49:00"
+  }
+]

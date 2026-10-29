@@ -1,0 +1,47 @@
+[
+  {
+    "plate": "กข 1234",
+    "province": "กรุงเทพมหานคร",
+    "type": "Sedan",
+    "slot": "1-07",
+    "timeIn": "2026-10-29T09:15:00",
+    "timeOut": null,
+    "image": "/cars/sedan.png"
+  },
+  {
+    "plate": "7กพ 5521",
+    "province": "กรุงเทพมหานคร",
+    "type": "SUV",
+    "slot": "2-12",
+    "timeIn": "2026-10-29T10:42:00",
+    "timeOut": null,
+    "image": "/cars/suv.png"
+  },
+  {
+    "plate": "บต 889",
+    "province": "นนทบุรี",
+    "type": "Pickup",
+    "slot": "1-21",
+    "timeIn": "2026-10-29T11:05:00",
+    "timeOut": null,
+    "image": "/cars/pickup.png"
+  },
+  {
+    "plate": "1ขค 4410",
+    "province": "ปทุมธานี",
+    "type": "Sedan",
+    "slot": "3-03",
+    "timeIn": "2026-10-29T12:30:00",
+    "timeOut": null,
+    "image": "/cars/sedan.png"
+  },
+  {
+    "plate": "ฮย 2025",
+    "province": "กรุงเทพมหานคร",
+    "type": "SUV",
+    "slot": "2-30",
+    "timeIn": "2026-10-28T08:05:00",
+    "timeOut": "2026-10-28T17:40:00",
+    "image": "/cars/suv.png"
+  }
+]

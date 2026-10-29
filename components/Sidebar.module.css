@@ -1,0 +1,20 @@
+.sidebar {
+  width: var(--sidebar-w); min-height: 100vh; background: var(--navy); color: #fff;
+  display: flex; flex-direction: column; gap: 24px; padding: 20px 12px;
+  position: sticky; top: 0; height: 100vh;
+}
+.logo { font: 700 20px var(--font-display); color: var(--green); text-decoration: none; padding: 0 12px; line-height: 1.2; }
+.logo small { font-size: 13px; color: #c3c9e3; font-weight: 500; }
+.menu { display: grid; gap: 4px; }
+.menu a { color: #dfe3f3; text-decoration: none; padding: 10px 12px; border-radius: 8px; font-size: 15px; }
+.menu a:hover, .menu a.active { background: rgba(156, 207, 143, 0.18); color: var(--green); }
+.logout {
+  margin-top: auto; background: none; border: 1px solid rgba(255, 255, 255, 0.25); color: #dfe3f3;
+  font: 500 14px var(--font-body); padding: 10px; border-radius: 8px; cursor: pointer;
+}
+@media (max-width: 760px) {
+  .sidebar { width: 100%; min-height: 0; height: auto; position: static; flex-direction: row; align-items: center; overflow-x: auto; }
+  .menu { display: flex; }
+  .menu a { white-space: nowrap; }
+  .logout { margin: 0; white-space: nowrap; }
+}
